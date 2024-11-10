@@ -1,21 +1,18 @@
 {
-  "module": "./sketches/index.js",
-  "type": "module",
-  "types": "./sketches/index.d.ts",
-  "description": "Code samples for algorithmic art concepts",
   "author": {
     "email": "prjctimg@outlook.com",
     "name": "Dean Tarisai"
   },
-  "scripts": {
-    "start": "bun build ./sketches/index.ts --outdir ./browser"
+  "repository": {
+    "url": "https://github.com/prjctimg/algorist"
   },
   "dependencies": {
     "@svgdotjs/svg.js": "^3.2.4",
     "huetiful-js": "^3.0.6",
     "math.js": "^1.1.46"
   },
-  "repository": {
-    "url": "https://github.com/prjctimg/algorist"
+  "description": "Code samples for algorithmic art concepts",
+  "scripts": {
+    "start": "bun build ./app.ts --outdir ./browser --watch"
   }
 }
