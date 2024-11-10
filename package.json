@@ -1,11 +1,14 @@
 {
+  "module": "./sketches/index.js",
+  "type": "module",
+  "types": "./sketches/index.d.ts",
   "description": "Code samples for algorithmic art concepts",
   "author": {
     "email": "prjctimg@outlook.com",
     "name": "Dean Tarisai"
   },
   "scripts": {
-    "start": ""
+    "start": "bun build ./sketches/index.ts --outdir ./browser"
   },
   "dependencies": {
     "@svgdotjs/svg.js": "^3.2.4",
