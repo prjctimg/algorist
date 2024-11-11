@@ -9,7 +9,7 @@
   "dependencies": {
     "@svgdotjs/svg.js": "^3.2.4",
     "huetiful-js": "^3.0.6",
-    "math.js": "^1.1.46"
+    "mathjs": "^13.2.1"
   },
   "description": "Code samples for algorithmic art concepts",
   "scripts": {
