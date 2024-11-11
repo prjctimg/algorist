@@ -1,7 +1,8 @@
+import { A } from "@svgdotjs/svg.js";
 import { cos, sin, sqrt } from "mathjs";
 // Archimedean spiral
 
-type Points = Array<{ x: number; y: number }>;
+type Coordinates = { x: number; y: number, z?: number }
 type SpiralOptions = {
     kind?: SpiralKind;
     a?: number;
@@ -36,10 +37,10 @@ function spiral({ kind = 'arc',
     b = 0,
     maxTheta = 0,
     step = 0,
-}: SpiralOptions): Points {
+}: SpiralOptions): Array<Coordinates> {
     let theta = 0,
         radius = 0;
-    const points: Points = [],
+    const points: Array<Coordinates> = [],
 
 
         // the equations for calculating the x & y coords
