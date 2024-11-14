@@ -1,18 +1,18 @@
 {
-  "author": {
-    "email": "prjctimg@outlook.com",
-    "name": "Dean Tarisai"
-  },
-  "repository": {
-    "url": "https://github.com/prjctimg/algorist"
-  },
-  "dependencies": {
-    "@svgdotjs/svg.js": "^3.2.4",
-    "huetiful-js": "^3.0.6",
-    "mathjs": "^13.2.1"
-  },
-  "description": "Code samples for algorithmic art concepts",
-  "scripts": {
-    "start": "bun build ./app.ts --outdir ./browser --watch"
-  }
+	"name": "@prjctimg/algorist",
+	"version": "0.1.0",
+	"description": "Code samples for algorithmic art concepts",
+	"author": "Dean Tarisai <prjctimg@outlook.ncom>",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/prjctimg/algorist.git"
+	},
+	"scripts": {
+		"start": "deno run --allow-read --allow-write --allow-net ./app.ts"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"@types/node": "^20.8.2"
+	}
 }

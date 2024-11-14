@@ -4,5 +4,23 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"typescript.format.enable": true,
+		"biome.enabled": true,
+		"typescript.experimental.expandableHover": true,
+		"typescript.experimental.updateImportsOnPaste": true,
+		"typescript.suggest.autoImports": true,
+		"typescript.suggest.completeFunctionCalls": true,
+		"debug.terminal.clearBeforeReusing": true,
+		"debug.showInStatusBar": "always",
+		"debug.console.historySuggestions": true,
+		"deno.enable": true,
+		"git.decorations.enabled": true,
+		"git.defaultBranchName": "main",
+		"git.suggestSmartCommit": true,
+		"git.alwaysSignOff": false,
+		"git.allowForcePush": true,
+		"git.showProgress": true,
+		"git.autoRepositoryDetection": true
+	}
 }

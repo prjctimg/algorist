@@ -1,0 +1,14 @@
+{
+	"name": "@prjctimg/algorist",
+	"version": "0.1.0",
+	"description": "Math functions for algorithmic artists.",
+	"exports": "./lib/index.ts",
+	"publish": {
+		"include": [
+			"./license",
+			"./readme.md",
+			"./lib/*.ts"
+		],
+		"exclude": ["./tests"]
+	}
+}
