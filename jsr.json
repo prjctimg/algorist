@@ -4,11 +4,7 @@
 	"description": "Math functions for algorithmic artists.",
 	"exports": "./lib/index.ts",
 	"publish": {
-		"include": [
-			"./license",
-			"./readme.md",
-			"./lib/*.ts"
-		],
+		"include": ["license", "readme.md", "lib/*.ts"],
 		"exclude": ["./tests"]
 	}
 }
