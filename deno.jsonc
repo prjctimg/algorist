@@ -1,5 +1,5 @@
 {
-	"name": "@prjctimg/algorist",
+	"name": "@algorist/math",
 	"version": "0.1.3",
 	"description": "Math functions for algorithmic artists.",
 	"repository": "https://github.com/my-org/my-package",
