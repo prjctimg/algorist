@@ -1,3 +1,3 @@
 import { spiral } from "./spiral.ts";
-
-export { spiral }
+import { relations } from "./relations.ts";
+export { spiral, relations }
